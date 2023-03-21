@@ -1,0 +1,15 @@
+mylist=['a','b','c','a','b','c','c','a','c']
+# print(mylist)
+
+mydict={}
+
+for i in mylist:
+    # if i in mydict:
+    mydict[i] = mydict.get(i,0)+1
+    # else:
+    #     mydict[i]=1
+print(mydict)
+
+# mydict = {k: mylist.count(k) for k in mylist}
+
+# print(mydict)
